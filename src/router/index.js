@@ -40,6 +40,21 @@ const routes = [
            component:()=>import("../views/customer/index.vue")
 
          },
+         {
+           path:"user",
+           component:()=>import("../views/user/index.vue")
+
+         },
+         {
+           path:"role",
+           component:()=>import("../views/role/index.vue")
+
+         },
+         {
+           path:"menu",
+           component:()=>import("../views/menu/index.vue")
+
+         },
 
 
 

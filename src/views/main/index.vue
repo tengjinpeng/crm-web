@@ -50,6 +50,24 @@
                  <span slot="title">单位管理</span>
                </el-menu-item>
              </el-submenu>
+             <el-submenu index="2">
+               <template slot="title">
+                 <i class="el-icon-location"></i>
+                 <span>系统管理</span>
+               </template>
+               <el-menu-item index="/main/user">
+                 <i class="el-icon-menu"></i>
+                 <span slot="title">用户管理</span>
+               </el-menu-item>
+               <el-menu-item index="/main/role">
+                 <i class="el-icon-menu"></i>
+                 <span slot="title">角色管理</span>
+               </el-menu-item>
+               <el-menu-item index="/main/menu">
+                 <i class="el-icon-menu"></i>
+                 <span slot="title">权限管理</span>
+               </el-menu-item>
+             </el-submenu>
 
            </el-menu>
          </el-scrollbar>

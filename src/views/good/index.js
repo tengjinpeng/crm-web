@@ -53,9 +53,11 @@ let category={
        await  obj.deleteByIds(this.delByid);
        this.findPage()
     },
+    //得到分类树
     async getCategoryTree(){
     this.categoryList= await obj.findCategoryTree();
     },
+   // 获取子类id
    getLastChildren(array){
         this.formData.typeId=array[array.length-1]
     }
